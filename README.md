@@ -65,5 +65,14 @@ Buttons
 1.	Links to forms. 
 2.	Do linked forms need to be different for each program? (probably not)
 
+## TO HAVE READY FOR THE MEETING ON OR AROUND FRIDAY, THE 13TH.
+
+* mobile view with dropdown menu
+* add brands to the parent landing page
+* add federal section
+* add also, non-active, Associations, and veterans (called "for those who serve"!!!!!)
+* add affiliates circles (see mailchimp)
+* update design pallete
+* 
 
 
