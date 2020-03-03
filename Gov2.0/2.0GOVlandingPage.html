@@ -9,13 +9,8 @@
 
 <style>
 
-h2 { 
-    font-size:24px;
-    /* color: white; */
-}
-
 /* Container holding the image and the text */
-.container2 {
+.banner {
   position: relative;
   text-align: center;
   color: white !important;
@@ -27,16 +22,6 @@ h2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-   
-.assoc {
-  background-color: #eff0f3;
-  padding-top: 0px;
-}
-
-.assoc_img {
-  padding: 25%;
 }
     
 .programs p  {
@@ -57,7 +42,19 @@ h2 {
 }
 
 .programs:hover::after {
-    opacity: 1;
+  opacity: 1;
+}
+
+.content {
+  padding-top: 5%;
+}
+
+.content_heading {
+  font-size: xx-large;
+}
+
+.content_body {
+
 }
 
 
@@ -82,21 +79,38 @@ h2 {
     opacity: 1;
 }
 
+.brands_content {
+  margin-top: 5%;
+}
+
+
+
+
+.assoc {
+  background-color: #eff0f3;
+  padding-top: 0px;
+}
+
+.assoc_img {
+  padding: 25%;
+}
+
 </style>
-<div class="container2">
+<div class="banner">
   <img src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4207251&c=3901023_SB1&h=1e9f7e5f2f4f1376e01a" alt="Snow" style="width:100%;">
   <div class="centered"><h1>Primary Arms: Government as an h1</h1></div>
 </div>  
+
 <!-- programs -->
 <div class="programs">
   <div class="row">
     <div class="col-sm-4">
-    <a style="font-weight:bold" href="https://sandbox.primaryarms.com/military-program">
-      <img style="width: 100%; float:left" src="https://3901023.app.netsuite.com/core/media/media.nl?id=13275126&c=3901023&h=7447700a5d0dfdc43007" alt="click here to get started"></a>
+    <a href="https://sandbox.primaryarms.com/military-program">
+      <img style="width: 100%; float:left;" src="https://3901023.app.netsuite.com/core/media/media.nl?id=13275126&c=3901023&h=7447700a5d0dfdc43007" alt="click here to get started"></a>
     </div>
-    <div class="col-sm-8" style="padding-top: 1%;">
-    <div style="display: block; width: 100%;">
-      <div class="content-heading"><h2>For Those who Serve</h2></div>
+    <div class="col-sm-8 content">
+      <div class="content_heading"><h2>For Those who Serve</h2></div>
+      <div class="content_body">
       <p><bold>Active military, Veterans, Federal employees, and non-active Military</bold></p>
        <p>
        Primary Arms: Government Program is a full-service partner for your department, 
@@ -109,15 +123,17 @@ h2 {
       <p> - Procurement support </p> 
       <p> - Trial equipment </p> 
       <p> - Product demo days and more.</p>
-    </div></div>
+    </div>
   </div>
+</div>
 </div>
 
 <div class="programs">
   <div class="row">
-    <div class="col-sm-8" style="padding-top: 1%;">
-    <div style="display: block; width: 100%; text-align:right;">
-      <div class="content-heading"><h2>Law Enforcement Program</h2></div>
+    <div class="col-sm-8 content">
+      <div style="text-align: right;">
+      <div class="content_heading"><h2>Law Enforcement Program</h2></div>
+      <div class="content_body">
       <p>For those in Blue:</p>
        <p>
         Primary Arms: Law Enforcement Program is a full-service partner for your department, dedicated to enhancing your equipment purchasing experience.
@@ -126,24 +142,25 @@ h2 {
         </p>
         <p> We offer fantastic firearms discounts to Law Enforcement departments and employees.   
         </p>
-    </div></div>
+        </div>
+    </div>
+  </div>
      <div class="col-sm-4">
-      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/law-enforcement">
+      <a href="https://sandbox.primaryarms.com/law-enforcement">
       <img style="width: 100%;" src="https://3901023.app.netsuite.com/core/media/media.nl?id=13277165&c=3901023&h=c6cb32e343a97fd3f8b2"></a>
     </div>
   </div>
 </div>
 
-
 <div class="programs">
   <div class="row">
     <div class="col-sm-4">
-      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/first-responders">
+      <a href="https://sandbox.primaryarms.com/first-responders">
       <img style="width: 100%; float:left" src="https://3901023.app.netsuite.com/core/media/media.nl?id=13277270&c=3901023&h=ff16ce7219b78d1b7122" alt="Click here to get started."></a>
     </div>
-    <div class="col-sm-8" style="padding-top: 1%;">
-    <div style="display: block; width: 100%;">
-      <div class="content-heading"><h2>Federal</h2></div>
+    <div class="col-sm-8 content">
+      <div class="content_heading"><h2>Federal</h2></div>
+      <div class="content_body">
       <p>For the one's who get there first:</p>
        <p>
        Primary Arms: First Responders Program is a full-service partner for your department, 
@@ -153,15 +170,17 @@ h2 {
        support to get you the right products. Trial equipment to test and a trade 
        in program for your old kit; we go beyond just a first responder discount.
         </p>
-    </div></div>
+        </div>
+    </div>
   </div>
 </div>
 
 <div class="programs">
   <div class="row">
-    <div class="col-sm-8" style="padding-top: 1%;">
-    <div style="display: block; width: 100%; text-align:right;">
-      <div class="content-heading"><h2>Law Enforcement Program</h2></div>
+    <div class="col-sm-8 content">
+      <div style="text-align: right;">
+      <div class="content_heading"><h2>Law Enforcement Program</h2></div>
+      <div class="content_body">
       <p>For those in Blue:</p>
        <p>
         Primary Arms: Law Enforcement Program is a full-service partner for your department, dedicated to enhancing your equipment purchasing experience.
@@ -170,24 +189,25 @@ h2 {
         </p>
         <p> We offer fantastic firearms discounts to Law Enforcement departments and employees.   
         </p>
-    </div></div>
+        </div>
+    </div>
+  </div>
      <div class="col-sm-4">
-      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/law-enforcement">
+      <a href="https://sandbox.primaryarms.com/law-enforcement">
       <img style="width: 100%;" src="https://3901023.app.netsuite.com/core/media/media.nl?id=13277165&c=3901023&h=c6cb32e343a97fd3f8b2"></a>
     </div>
   </div>
 </div>
 
-
 <div class="programs">
   <div class="row">
-    <div class="col-sm-4">
-      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/first-responders">
-      <img style="width: 100%; float:left" src="https://3901023.app.netsuite.com/core/media/media.nl?id=13277270&c=3901023&h=ff16ce7219b78d1b7122" alt="Click here to get started."></a>
-    </div>
-    <div class="col-sm-8" style="padding-top: 1%;">
-    <div style="display: block; width: 100%;">
-      <div class="content-heading"><h2>First Responders Program</h2></div>
+    <div class="col-sm-4 ">
+      <a href="https://sandbox.primaryarms.com/first-responders">
+      <img style="width: 100%; float:left;" src="https://3901023.app.netsuite.com/core/media/media.nl?id=13277270&c=3901023&h=ff16ce7219b78d1b7122" alt="Click here to get started."></a>
+      </div>
+    <div class="col-sm-8 content">
+      <div class="content_heading"><h2>First Responders Program</h2></div>
+      <div class="content_body">
       <p>For the one's who get there first:</p>
        <p>
        Primary Arms: First Responders Program is a full-service partner for your department, 
@@ -197,12 +217,13 @@ h2 {
        support to get you the right products. Trial equipment to test and a trade 
        in program for your old kit; we go beyond just a first responder discount.
         </p>
-    </div></div>
+        </div>
+    </div>
   </div>
 </div>
 <br>
 <!-- bottom banner with H2-->
-<div class="container2">
+<div class="banner">
   <img src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4207251&c=3901023_SB1&h=1e9f7e5f2f4f1376e01a" alt="Snow" style="width:100%;">
   <div class="centered"><h2>Brands text as an h2 </h2></div>
 </div>
@@ -211,12 +232,12 @@ h2 {
 <div class="brands">
   <div class="row">
     <div class="col-sm-3">
-    <a style="font-weight:bold" href="https://sandbox.primaryarms.com/law-enforcement#getStarted">
+    <a href="https://sandbox.primaryarms.com/law-enforcement#getStarted">
       <img style="width: 100%; float:left" src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4205401&c=3901023_SB1&h=1e87ac6d8e1d75c355c6" alt="click here to get started"></a>
     </div>
-    <div class="col-sm-9 brands_content" style="padding-top: 1%;">
-    <div style="display: block; width: 100%;">
-      <div class="content-heading"><h2>Gear and Uniforms</h2></div>
+    <div class="col-sm-9 brands_content">
+      <div class="brands_heading"><h2>Gear and Uniforms</h2></div>
+      <div class="brands_body">
       <p>Meet all your department needs with top brands:</p>
       <p>
         5.11, Danner Boots, Vertx, Under Armour, High Speed Gear, Team Wendy, Blue Force Gear, Gerber,
@@ -230,9 +251,9 @@ h2 {
 
 <div class="brands">
   <div class="row">
-    <div class="col-sm-9 brands_content" style="padding-top: 1%;">
-    <div style="display: block; width: 100%; text-align:right;">
-      <div class="content-heading"><h2>Firearm accessories</h2></div>
+    <div class="col-sm-9 brands_content">
+    <div style="text-align:right;">
+      <div class="brands_heading"><h2>Firearm accessories</h2></div>
       <p>Meet your department needs with top brands:</p>
        <p>
             Aguila Ammunition, American Defense, Black Hill Ammunition, Dead Air Silencers, Magpul,
@@ -240,7 +261,7 @@ h2 {
         </p>
     </div></div>
      <div class="col-sm-3">
-      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/law-enforcement#getStarted">
+      <a href="https://sandbox.primaryarms.com/law-enforcement#getStarted">
       <img style="width: 100%;" src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4205400&c=3901023_SB1&h=acdb9bd7aaa45a4456f8" alt="Click here to get started"></a>
     </div>
   </div>
@@ -250,27 +271,26 @@ h2 {
 <div class="brands">
   <div class="row">
     <div class="col-sm-3">
-      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/law-enforcement#getStarted">
+      <a href="https://sandbox.primaryarms.com/law-enforcement#getStarted">
       <img style="width: 100%; float:left" src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4204797&c=3901023_SB1&h=fcd26988e14d6a9f70e7" alt="Click here to get started."></a>
     </div>
-    <div class="col-sm-9 brands_content" style="padding-top: 1%;">
-    <div style="display: block; width: 100%;">
-      <div class="content-heading"><h2>Optics</h2></div>
+    <div class="col-sm-9 brands_content">
+      <div class="brands_heading"><h2>Optics</h2></div>
       <p>Meet your department needs with top brands:</p>
        <p>
             Kershaw, ATN, Crimson Trace, Elcan, Eotech, FLIR, Holosun Optics, L3 Technologies, Leupold, 
             Nightforce, Primary Arms Optics, N-Vision Optics, Trijicon, Troy Industries, Vortex.
         </p>
-    </div></div>
+    </div>
   </div>
 </div>
 
 
 <div class="brands">
   <div class="row">
-    <div class="col-sm-9 brands_content" style="padding-top: 1%;">
-    <div style="display: block; width: 100%; text-align: right;">
-      <div class="content-heading"><h2>Firearms</h2></div>
+    <div class="col-sm-9 brands_content">
+    <div style="text-align: right;">
+      <div class="brands_heading"><h2>Firearms</h2></div>
       <p>Meet all your department needs with tops brands:</p>
       <p>
         Ruger, Adams Arms, Advanced Armament Corp, Benelli, Bravo Company Manufacturing, Colt, 
@@ -280,15 +300,17 @@ h2 {
       </p>
     </div></div>
      <div class="col-sm-3">
-      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/law-enforcement#getStarted">
+      <a href="https://sandbox.primaryarms.com/law-enforcement#getStarted">
       <img style="width: 100%; float:left" src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4205399&c=3901023_SB1&h=48f784b0d089373ac8a0" alt="Click here to get started."></a>
     </div>
   </div>
 </div>
 
+
+
 <br>
 <!-- bottom banner with H2-->
-<div class="container2">
+<div class="banner">
   <img src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4207251&c=3901023_SB1&h=1e9f7e5f2f4f1376e01a" alt="Snow" style="width:100%;">
   <div class="centered"><h2>associates and affiliates as an h2 </h2></div>
 </div>
