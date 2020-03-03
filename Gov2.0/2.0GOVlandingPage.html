@@ -8,244 +8,117 @@
 <body>
 
 <style>
-    
-    .container{
-    padding: 0px;
-    /* background-color: black; */
-    width: 100%;
-    }
-        .banner-text{
-            text-align:left;
-            display:inline-block;
-            color: gray;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-          
-        }
-        .banner-text p, h2{
-            margin-bottom: 15px;
-            /* color: white; */
-            font-size: 18px;
-            padding: 20px;  
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-        }
-        
-        .pics{ 
-        }
-
-        #empty {
-            height: 250px;
-        }
-
-
-    .capabilities-block {
-        text-align:center;
-        
-    }
-    .capabilities-block-title {
-        padding: 0px 25px;
-        margin-top: 25px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: black;
-
-    }
-    .capabilities-block-title p{
-        color: dark-gray;
-        font-size: 18px;
-        text-transform: uppercase;
-        font-style: italic;
-        margin: 0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        
-
-    }
-    .capabilities-block-content p{
-        padding: 15px 7px;
-        border: px solid #707070;
-        color: dark-gray;
-        font-size: 18px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-    }
-    
-    .paragraphs p  {
-    font-size: 18px;
-    /* color: white; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    }
-    
-    h2{ 
+h2 { 
     font-size:24px;
     /* color: white; */
-    
-    }
-    
-    h3 {
-    color: black;
-    
-    }
-    
-    h4 {
-    font-size:22px;
-    color: black;
-    font-weight:bold;
-    margin-left: 4%;
-    margin-top: 4%;
-    
-    }
-    
-    .paragraphs {
-    margin-top: 25px;
-    /* background-color: black; */
-  transition: all 0.3s ease-in-out;
-  
-    }
-    
-    /* Create the hidden pseudo-element */
-/* include the shadow for the end state */
-.box::after {
-  content: '';
+}
+
+/* Container holding the image and the text */
+.container2 {
+  position: relative;
+  text-align: center;
+  color: white !important;
+}
+
+/* Centered text for banner */
+.centered {
   position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 0.0s ease-in-out;
-  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.paragraphs:hover {
-  -webkit-transform: scale(1.1, 1.1);
-  transform: scale(1.1, 1.1);
-
-}
-
-.paragraphs:hover::after {
-    opacity: 1;
-}
-
-    
-      #empty {
-           height: 0%;
-           text-align: center;
-        }
-        
-        #getStarted {
-        font-size: 18px;
-        background-color: black;
-        color: white;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-        }
-    
-    @media (max-width: 768px) {
-      .row.row-fix {
-          display: -webkit-box;
-          display: -webkit-flex;
-          display: -ms-flexbox;
-          display: flex;
-          flex-wrap: wrap;
-        }
-        .row.row-fix > [class*='col-'] {
-          display: flex;
-          flex-direction: column;
-          width:49%;
-        }
-        .top-brands .top-brands-content p{
-            min-height:411px;
-            height:100%;
-        }
-    }
-
-    .LE-bottom-links {
-        background: #3b78d2;
-        transition: all 0.3s ease-in-out;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        border-radius: 10px;
-        display: block;
-        max-width: 90%;
-        border: none;
-        padding: 25px;
-        margin: 0 auto 5px;
-        color: #fff;
-        width:100%;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 18px;
-
-    }
-    .LE-bottom-links span{
-    padding-top:4px;
-    display:block;
-    }
-    
-
-
-.LE-bottom-links:hover {
-    color: white !important;
-  -webkit-transform: scale(1.1, 1.1);
-  transform: scale(1.1, 1.1);
-}
-
-.LE-bottom-links:hover::after {
-    opacity: 1;
-}
-
-
-    #iframe-rep-form {
-        height: 1085px;
-        width: 100%;
-        border: 0px;
-        margin-top: 40px;
-    }
-    @media (min-width: 768px) {
-        #iframe-rep-form {
-            height: 1075px;
-        }
-    }
-</style>
-
-
-<div class="row">
-<div class="col-md-12">
-<img src="https://3901023.app.netsuite.com/core/media/media.nl?id=13271101&c=3901023&h=ae13588d55d4936fc333">
-</div>
-</div>    
    
-     
-<!-- brands -->
+.assoc {
+  background-color: #eff0f3;
+  padding-top: 0px;
+}
+
+.assoc_img {
+  padding: 25%;
+}
     
-<div class="paragraphs">
+.programs p  {
+  font-size: 18px;
+  /* color: white; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+    
+.programs {
+  /* background-color: black; */
+  transition: all 0.3s ease-in-out;
+}
+
+.programs:hover {
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+
+}
+
+.programs:hover::after {
+    opacity: 1;
+}
+
+
+.brands p  {
+  font-size: 18px;
+  /* color: white; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+    
+.brands {
+  /* background-color: black; */
+  transition: all 0.3s ease-in-out;
+}
+
+.brands:hover {
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+
+}
+
+.brands:hover::after {
+    opacity: 1;
+}
+
+</style>
+<div class="container2">
+  <img src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4207251&c=3901023_SB1&h=1e9f7e5f2f4f1376e01a" alt="Snow" style="width:100%;">
+  <div class="centered"><h1>Primary Arms: Government as an h1</h1></div>
+</div>  
+<!-- programs -->
+<div class="programs">
   <div class="row">
     <div class="col-sm-4">
-    <a style="font-weight:bold" href="https://sandbox.primaryarms.com/military-program#getStarted">
+    <a style="font-weight:bold" href="https://sandbox.primaryarms.com/military-program">
       <img style="width: 100%; float:left" src="https://3901023.app.netsuite.com/core/media/media.nl?id=13275126&c=3901023&h=7447700a5d0dfdc43007" alt="click here to get started"></a>
     </div>
     <div class="col-sm-8" style="padding-top: 1%;">
     <div style="display: block; width: 100%;">
-      <div class="content-heading"><h2>Military program</h2></div>
-      <p>For branches of the military, Special forces units, and Hawaiian shirt Operators. Primary Arms: Military Program is a full-service partner for your department or unit, dedicated to enhancing your equipment purchasing experience.
-    </p>
-    <p>With our history of supplying SOCOM soldiers, the Primary Arms: Military program has your back through the life of your equipment. 
-    </p>
-    <p> We go beyond a simple Military discount when partnering with us. Program highlights include:
-    </p>
-    <p> - Procurement support </p> 
-    <p> - Trial equipment </p> 
-    <p> - Product demo days and more.</p>
-    
-    </div>
-    </div>
+      <div class="content-heading"><h2>For Those who Serve</h2></div>
+      <p><bold>Active military, Veterans, Federal employees, and non-active Military</bold></p>
+       <p>
+       Primary Arms: Government Program is a full-service partner for your department, 
+       dedicated to enhancing your equipment purchasing experience.
+       </p>
+       <p>With our history of supplying SOCOM soldiers, the Primary Arms: Military program has your back through the life of your equipment. 
+      </p>
+      <p> We go beyond a simple Military discount when partnering with us. Program highlights include:
+      </p>
+      <p> - Procurement support </p> 
+      <p> - Trial equipment </p> 
+      <p> - Product demo days and more.</p>
+    </div></div>
   </div>
 </div>
 
-<div class="paragraphs">
+<div class="programs">
   <div class="row">
     <div class="col-sm-8" style="padding-top: 1%;">
     <div style="display: block; width: 100%; text-align:right;">
       <div class="content-heading"><h2>Law Enforcement Program</h2></div>
-      <p style="clear:both">For those in Blue:</p>
+      <p>For those in Blue:</p>
        <p>
         Primary Arms: Law Enforcement Program is a full-service partner for your department, dedicated to enhancing your equipment purchasing experience.
         </p>
@@ -255,23 +128,23 @@
         </p>
     </div></div>
      <div class="col-sm-4">
-      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/law-enforcement#getStarted">
+      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/law-enforcement">
       <img style="width: 100%;" src="https://3901023.app.netsuite.com/core/media/media.nl?id=13277165&c=3901023&h=c6cb32e343a97fd3f8b2"></a>
     </div>
   </div>
 </div>
 
 
-<div class="paragraphs">
+<div class="programs">
   <div class="row">
     <div class="col-sm-4">
-      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/first-responders#getStarted">
+      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/first-responders">
       <img style="width: 100%; float:left" src="https://3901023.app.netsuite.com/core/media/media.nl?id=13277270&c=3901023&h=ff16ce7219b78d1b7122" alt="Click here to get started."></a>
     </div>
     <div class="col-sm-8" style="padding-top: 1%;">
     <div style="display: block; width: 100%;">
-      <div class="content-heading"><h2>First Responders Program</h2></div>
-      <p style="clear:both">For the one's who get there first:</p>
+      <div class="content-heading"><h2>Federal</h2></div>
+      <p>For the one's who get there first:</p>
        <p>
        Primary Arms: First Responders Program is a full-service partner for your department, 
        dedicated to enhancing your equipment purchasing experience.
@@ -283,30 +156,185 @@
     </div></div>
   </div>
 </div>
-    
-    
- <div class="row">
-        <div class="col-md-12"> 
-            <div id="empty">
-                <br>
-                <p></p><center></center><p></p>
-            </div>
-        </div>
-        </div>
+
+<div class="programs">
+  <div class="row">
+    <div class="col-sm-8" style="padding-top: 1%;">
+    <div style="display: block; width: 100%; text-align:right;">
+      <div class="content-heading"><h2>Law Enforcement Program</h2></div>
+      <p>For those in Blue:</p>
+       <p>
+        Primary Arms: Law Enforcement Program is a full-service partner for your department, dedicated to enhancing your equipment purchasing experience.
+        </p>
+        <p> From the first trial to final support and advising, Primary Arms: Law Enforcement Program works as a companion for superior service.
+        </p>
+        <p> We offer fantastic firearms discounts to Law Enforcement departments and employees.   
+        </p>
+    </div></div>
+     <div class="col-sm-4">
+      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/law-enforcement">
+      <img style="width: 100%;" src="https://3901023.app.netsuite.com/core/media/media.nl?id=13277165&c=3901023&h=c6cb32e343a97fd3f8b2"></a>
+    </div>
+  </div>
+</div>
 
 
-
-
-<a id="getStarted"></a>
-
-<!-- bottom text and buttons -->
+<div class="programs">
+  <div class="row">
+    <div class="col-sm-4">
+      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/first-responders">
+      <img style="width: 100%; float:left" src="https://3901023.app.netsuite.com/core/media/media.nl?id=13277270&c=3901023&h=ff16ce7219b78d1b7122" alt="Click here to get started."></a>
+    </div>
+    <div class="col-sm-8" style="padding-top: 1%;">
+    <div style="display: block; width: 100%;">
+      <div class="content-heading"><h2>First Responders Program</h2></div>
+      <p>For the one's who get there first:</p>
+       <p>
+       Primary Arms: First Responders Program is a full-service partner for your department, 
+       dedicated to enhancing your equipment purchasing experience.
+       </p>
+       <p>We offer Procurement 
+       support to get you the right products. Trial equipment to test and a trade 
+       in program for your old kit; we go beyond just a first responder discount.
+        </p>
+    </div></div>
+  </div>
+</div>
 <br>
-<div class="row">
-<div class="col-md-12">
-<img src="https://3901023.app.netsuite.com/core/media/media.nl?id=13271101&c=3901023&h=ae13588d55d4936fc333">
-</div>
+<!-- bottom banner with H2-->
+<div class="container2">
+  <img src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4207251&c=3901023_SB1&h=1e9f7e5f2f4f1376e01a" alt="Snow" style="width:100%;">
+  <div class="centered"><h2>Brands text as an h2 </h2></div>
 </div>
 
+<!-- brands -->
+<div class="brands">
+  <div class="row">
+    <div class="col-sm-3">
+    <a style="font-weight:bold" href="https://sandbox.primaryarms.com/law-enforcement#getStarted">
+      <img style="width: 100%; float:left" src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4205401&c=3901023_SB1&h=1e87ac6d8e1d75c355c6" alt="click here to get started"></a>
+    </div>
+    <div class="col-sm-9 brands_content" style="padding-top: 1%;">
+    <div style="display: block; width: 100%;">
+      <div class="content-heading"><h2>Gear and Uniforms</h2></div>
+      <p>Meet all your department needs with top brands:</p>
+      <p>
+        5.11, Danner Boots, Vertx, Under Armour, High Speed Gear, Team Wendy, Blue Force Gear, Gerber,
+        Kershaw, Howard Leight, Peltor, Safariland, BLACKHAWK!, Eagle Industries, Adventure Medical Kits, 
+        PerSys Medical, North American Rescue.
+      </p>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="brands">
+  <div class="row">
+    <div class="col-sm-9 brands_content" style="padding-top: 1%;">
+    <div style="display: block; width: 100%; text-align:right;">
+      <div class="content-heading"><h2>Firearm accessories</h2></div>
+      <p>Meet your department needs with top brands:</p>
+       <p>
+            Aguila Ammunition, American Defense, Black Hill Ammunition, Dead Air Silencers, Magpul,
+            OSS Suppressors, Plano, SilencerCo, Inforce, Streamlight, Surefire, Frog Lube, Viridian.
+        </p>
+    </div></div>
+     <div class="col-sm-3">
+      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/law-enforcement#getStarted">
+      <img style="width: 100%;" src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4205400&c=3901023_SB1&h=acdb9bd7aaa45a4456f8" alt="Click here to get started"></a>
+    </div>
+  </div>
+</div>
+
+
+<div class="brands">
+  <div class="row">
+    <div class="col-sm-3">
+      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/law-enforcement#getStarted">
+      <img style="width: 100%; float:left" src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4204797&c=3901023_SB1&h=fcd26988e14d6a9f70e7" alt="Click here to get started."></a>
+    </div>
+    <div class="col-sm-9 brands_content" style="padding-top: 1%;">
+    <div style="display: block; width: 100%;">
+      <div class="content-heading"><h2>Optics</h2></div>
+      <p>Meet your department needs with top brands:</p>
+       <p>
+            Kershaw, ATN, Crimson Trace, Elcan, Eotech, FLIR, Holosun Optics, L3 Technologies, Leupold, 
+            Nightforce, Primary Arms Optics, N-Vision Optics, Trijicon, Troy Industries, Vortex.
+        </p>
+    </div></div>
+  </div>
+</div>
+
+
+<div class="brands">
+  <div class="row">
+    <div class="col-sm-9 brands_content" style="padding-top: 1%;">
+    <div style="display: block; width: 100%; text-align: right;">
+      <div class="content-heading"><h2>Firearms</h2></div>
+      <p>Meet all your department needs with tops brands:</p>
+      <p>
+        Ruger, Adams Arms, Advanced Armament Corp, Benelli, Bravo Company Manufacturing, Colt, 
+        Daniel Defense, DPMS, Expo Arms, FN America, Geissele Automatics, LMT, PepperBall, 
+        Primary Weapon Systems, Remington, Rock River Arms, Ruger, Savage Arms, Sig Sauer, 
+        Sionics Weapon Systems, Smith & Wesson, Sons of Liberty Gun Works. 
+      </p>
+    </div></div>
+     <div class="col-sm-3">
+      <a style="font-weight:bold" href="https://sandbox.primaryarms.com/law-enforcement#getStarted">
+      <img style="width: 100%; float:left" src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4205399&c=3901023_SB1&h=48f784b0d089373ac8a0" alt="Click here to get started."></a>
+    </div>
+  </div>
+</div>
+
+<br>
+<!-- bottom banner with H2-->
+<div class="container2">
+  <img src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4207251&c=3901023_SB1&h=1e9f7e5f2f4f1376e01a" alt="Snow" style="width:100%;">
+  <div class="centered"><h2>associates and affiliates as an h2 </h2></div>
+</div>
+
+
+<!-- affiliates and associations -->
+<div class="assoc">
+  <!-- row one of brands -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="assoc_img">
+            <img src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4207250&c=3901023_SB1&h=45f9762e23772f262be7">
+          </div>
+        </div>  
+        <div class="col-md-4">
+          <div class="assoc_img">
+            <img src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4207250&c=3901023_SB1&h=45f9762e23772f262be7">
+          </div>
+        </div>          
+        <div class="col-md-4">
+          <div class="assoc_img">
+            <img src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4207250&c=3901023_SB1&h=45f9762e23772f262be7">
+          </div>
+        </div>    
+      </div>
+
+
+<!-- row 2 of Associations -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="assoc_img">
+            <img src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4207250&c=3901023_SB1&h=45f9762e23772f262be7">
+          </div>
+        </div>  
+        <div class="col-md-4">
+          <div class="assoc_img">
+            <img src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4207250&c=3901023_SB1&h=45f9762e23772f262be7">
+          </div>
+        </div>          
+        <div class="col-md-4">
+          <div class="assoc_img">
+            <img src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4207250&c=3901023_SB1&h=45f9762e23772f262be7">
+          </div>
+        </div>    
+      </div>
+  </div>
 </div>
 </body>
 </html>

@@ -73,6 +73,9 @@ Buttons
 * add also, non-active, Associations, and veterans (called "for those who serve"!!!!!)
 * add affiliates circles (see mailchimp)
 * update design pallete
-* 
+
+
+## needed to complete by the 13th
+* 4 or more soldiers shadow saluting. for federal photo on landing page and child page
 
 
