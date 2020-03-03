@@ -9,6 +9,8 @@
 
 <style>
 
+#content-mobile {display: none;}
+
 /* Container holding the image and the text */
 .banner {
   position: relative;
@@ -92,7 +94,48 @@
   padding: 25%;
 }
 
+
+
+/* ======================================================================================================================================= */
+/* ======================================================================================================================================= */
+/* ======================================================================================================================================= */
+/* ======================================================================================================================================= */
+
+@media screen and (max-width: 800px) {
+  
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+h2 {
+  color: white !important;
+}
+
+.mobile_img {
+  /* position: relative; */
+  width: 50%;
+  text-align: center;
+  color: white !important;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white !important;
+}
+
+
+
+
+
+
+
+
+}
+/* ======================================================================================================================================= */
 </style>
+<div id="content-desktop">
 <div class="banner">
   <img src="https://3901023-sb1.app.netsuite.com/core/media/media.nl?id=4207251&c=3901023_SB1&h=1e9f7e5f2f4f1376e01a" alt="Snow" style="width:100%;">
   <div class="centered"><h1>Primary Arms: Government as an h1</h1></div>
@@ -356,6 +399,34 @@
         </div>    
       </div>
   </div>
+</div>
+
+<div id="content-mobile">
+  <div class="row">
+    <div class ="col-md-6 mobile_img">
+      <a href="https://sandbox.primaryarms.com/military-program">
+        <img src="https://3901023.app.netsuite.com/core/media/media.nl?id=13275126&c=3901023&h=7447700a5d0dfdc43007" alt="click here to get started"></a>
+        <div class="centered"><h1>Primary Arms: Government as an h1</h1></div>
+    </div>
+    <div class ="col-md-6 mobile_img">
+      <a href="https://sandbox.primaryarms.com/military-program">
+        <img src="https://3901023.app.netsuite.com/core/media/media.nl?id=13275126&c=3901023&h=7447700a5d0dfdc43007" alt="click here to get started"></a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class ="col-md-6 mobile_img">
+      <a href="https://sandbox.primaryarms.com/military-program">
+        <img src="https://3901023.app.netsuite.com/core/media/media.nl?id=13275126&c=3901023&h=7447700a5d0dfdc43007" alt="click here to get started"></a>
+        <a href="https://sandbox.primaryarms.com/military-program">
+          <img src="https://3901023.app.netsuite.com/core/media/media.nl?id=13275126&c=3901023&h=7447700a5d0dfdc43007" alt="click here to get started"></a>
+      
+      </div>
+    <!-- <div class ="col-sm-6 mobile_img">
+     </div> -->
+  </div>
+
+
 </div>
 </body>
 </html>
